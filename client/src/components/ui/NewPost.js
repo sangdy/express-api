@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Form from './Form';
 
 class NewPost extends Component {
   getStyles() {
@@ -24,6 +25,7 @@ class NewPost extends Component {
     return (
       <div style={styles.content}>
         <div style={styles.title}>写文章</div>
+        <Form />
       </div>
     );
   }
